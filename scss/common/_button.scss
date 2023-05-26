@@ -4,10 +4,23 @@
   justify-content: center;
   gap: 5px;
   width: 100%;
+  max-width: 314px;
   height: 40px;
   background: var(--main-dark);
   color: #fff;
   border-radius: 3px;
   text-decoration: none;
   padding: 5px 10px;
+  &:hover{
+    scale: 102%;
+    transition: 1s;
+  }
+  &:checked{
+    opacity: 25%;
+    transition: 1s;
+  }
+  &_promo{
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
 }

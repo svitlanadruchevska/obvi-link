@@ -6,7 +6,6 @@
     clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
     top: -87px;
     background: linear-gradient(27.37deg, #EFF243 -1.3%, #F0B379 101.01%);
-
   }
 
   &:nth-child(2):before {
@@ -15,6 +14,30 @@
 
   &:nth-child(3):before {
     background: linear-gradient(67.28deg, #FFE663 2.61%, #DE6DF0 98.48%);
+  }
+
+  &:nth-child(4):before {
+    background: linear-gradient(67.29deg, #9043F2 2.6%, #87DBFF 97.97%);
+  }
+
+  &:nth-child(5):before {
+    background: linear-gradient(67.28deg, #2BC0CA 2.61%, #A2E479 98.48%);
+  }
+
+  &:nth-child(6):before {
+    background: linear-gradient(71.15deg, #E4B334 -4.61%, #F37474 96.78%);
+  }
+
+  &:nth-child(7):before {
+    background: linear-gradient(67.28deg, #CE45C0 2.61%, #706DF0 98.48%);
+  }
+
+  &:nth-child(8):before {
+    background: linear-gradient(67.29deg, #4393F2 2.6%, #87C6FF 97.97%);
+  }
+
+  &:nth-child(9):before {
+    background: linear-gradient(67.29deg, #EFF243 2.6%, #F06DB4 97.97%);
   }
 
   &:before {
@@ -26,7 +49,7 @@
     height: 595px;
     transform: translateX(-50%);
     z-index: -1;
-    bottom: 0px;
+    bottom: 0;
     clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
   }
 
