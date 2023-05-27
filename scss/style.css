@@ -362,12 +362,6 @@ img {
     padding-right: calc(50vw - 600px);
   }
 }
-@media screen and (min-width: 1400px) {
-  .center {
-    padding-left: calc(50vw - 675px);
-    padding-right: calc(50vw - 675px);
-  }
-}
 
 .visually-hidden {
   position: absolute;
@@ -564,7 +558,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 5px;
+    padding-bottom: 40px;
   }
 }
 .section-with-phone:nth-child(even) {
@@ -628,6 +622,12 @@ img {
     line-height: 1.15;
   }
 }
+@media screen and (min-width: 1250px) {
+  .section-with-phone__title {
+    font-size: 64px;
+    line-height: 1.02;
+  }
+}
 .section-with-phone__subtitle {
   margin: 40px 0 20px;
   font-size: 18px;
@@ -688,6 +688,10 @@ img {
   .icons {
     padding-bottom: 23px;
   }
+}
+
+.carousel, .carousel-item {
+  transition-duration: 1.5s;
 }
 
 .promo-rates {
