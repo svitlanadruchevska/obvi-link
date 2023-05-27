@@ -37,7 +37,8 @@
     font-weight: 400;
     text-decoration: none;
     line-height: 1.4;
-    &:hover{
+
+    &:hover {
       text-decoration-line: underline;
     }
   }
@@ -123,6 +124,7 @@
       }
     }
   }
+
   @media screen and (min-width: 767px) {
     display: none;
   }

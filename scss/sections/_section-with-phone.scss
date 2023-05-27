@@ -59,11 +59,14 @@
     position: absolute;
     left: 50%;
     width: 100vw;
-    height: 595px;
+    height: 600px;
     transform: translateX(-50%);
     z-index: -1;
     bottom: -30px;
     clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
+    @media screen and (min-width: 767px){
+      opacity: 0.5;
+    }
   }
 
   &__title {
