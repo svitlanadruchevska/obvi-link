@@ -9,6 +9,9 @@ body {
   font-size: 14px;
   padding-top: 87px;
   line-height: 1.4;
+  @media screen and (min-width: 767px) {
+    background: #EAF5F9;
+  }
 }
 
 img {
@@ -19,7 +22,6 @@ img {
 .center {
   padding-left: calc(50vw - 125px);
   padding-right: calc(50vw - 125px);
-
 
   @media screen and (min-width: 520px) {
     padding-left: calc(50vw - 250px);
@@ -50,9 +52,19 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.main-all {
+  @media screen and (min-width: 890px) {
+    min-width: 840px;
+    background: #fff;
+    z-index: 10;
+    border-radius: 30px;
+    padding: 67px 60px 50px 60px;
+  }
+}
+
