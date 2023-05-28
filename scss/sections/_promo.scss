@@ -129,15 +129,26 @@
 }
 
 .promo-prices-all {
+  display: flex;
+  margin: auto;
   @media screen and (min-width: 890px) {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    max-width: 900px;
+    padding-bottom: 50px;
+    margin-top: 50px;
   }
 }
-
-
+.promo{
+  position: relative;
+  z-index: 3;
+}
 
 
 
