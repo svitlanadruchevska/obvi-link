@@ -766,11 +766,6 @@ img {
     max-width: 320px;
   }
 }
-@media screen and (min-width: 890px) {
-  .section-with-phone-info {
-    max-width: 350px;
-  }
-}
 
 .icons:hover {
   scale: 105%;
@@ -933,7 +928,6 @@ img {
 .footer {
   margin-top: 80px;
   background: #EAF5F9;
-  text-align: center;
   padding-bottom: 80px;
 }
 .footer__list {
@@ -945,6 +939,7 @@ img {
   .footer__list {
     display: flex;
     flex-direction: row;
+    justify-content: end;
     gap: 30px;
   }
 }

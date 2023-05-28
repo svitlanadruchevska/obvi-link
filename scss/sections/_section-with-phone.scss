@@ -25,7 +25,7 @@
       height: 1105px;
       clip-path: polygon(0 52%, 100% 0, 100% 48%, 0% 100%);
       z-index: -2;
-      @media screen and (min-width: 1250px){
+      @media screen and (min-width: 1250px) {
         max-width: 1105px;
       }
     }
@@ -42,7 +42,7 @@
       left: -150px;
       top: -870px;
       z-index: -3;
-      @media screen and (min-width: 1250px){
+      @media screen and (min-width: 1250px) {
         max-width: 1105px;
       }
     }
@@ -174,9 +174,6 @@
     flex-direction: column;
     justify-content: center;
     max-width: 320px;
-  }
-  @media screen and (min-width: 890px) {
-    max-width: 350px;
   }
 }
 
