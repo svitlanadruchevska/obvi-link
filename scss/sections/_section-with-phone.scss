@@ -25,11 +25,12 @@
       height: 1105px;
       clip-path: polygon(0 52%, 100% 0, 100% 48%, 0% 100%);
       z-index: -2;
-      @media screen and (min-width: 1250px) {
-        max-width: 1105px;
-      }
+    }
+    @media screen and (min-width: 1250px) {
+      max-width: 1105px;
     }
   }
+
 
   &:nth-child(2):before {
     background: linear-gradient(73.59deg, #34E48F -8.4%, #3EDFF5 96.66%);
@@ -42,9 +43,9 @@
       left: -150px;
       top: -870px;
       z-index: -3;
-      @media screen and (min-width: 1250px) {
-        max-width: 1105px;
-      }
+    }
+    @media screen and (min-width: 1250px) {
+      max-width: 1105px;
     }
   }
 
@@ -194,4 +195,6 @@
 .carousel, .carousel-item {
   transition-duration: 1.5s;
 }
+
+
 
